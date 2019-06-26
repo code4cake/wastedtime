@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# distribution
+lib/
+
+# mics
+.DS_Store
+
+# ide
+.vscode/*

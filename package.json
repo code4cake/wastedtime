@@ -1,0 +1,60 @@
+{
+  "name": "wastedtime",
+  "private": true,
+  "authors": [
+    "DS <dantevs@icloud.com> (https://twitter.com/dsbrux)"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "./lib/cli.js",
+  "keywords": [
+    "cli",
+    "node",
+    "flow",
+    "babel"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "cli.js"
+  ],
+  "bin": {
+    "availability": "./lib/cli.js"
+  },
+  "engines": {
+    "node": ">= 8.10.0"
+  },
+  "scripts": {
+    "start": "node -e ./lib/cli.js",
+    "clean": "rimraf ./lib/*",
+    "build": "babel src/ -d lib/",
+    "lint": "yarn run eslint ./src/**/*.js",
+    "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
+    "pretty": "yarn run prettier --check ./src/**/*.js ",
+    "flow:check": "flow check",
+    "flow:stop": "flow stop",
+    "flowtype:install": "flow-typed install",
+    "prepublish": "yarn run clean && yarn run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "flow-bin": "^0.98.1",
+    "flow-typed": "^2.5.2",
+    "jest": "^24.8.0",
+    "np": "^5.0.3",
+    "prettier": "1.18.2",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.3.1"
+  }
+}
