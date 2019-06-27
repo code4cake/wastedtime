@@ -2,7 +2,7 @@
   "name": "wastedtime",
   "private": true,
   "authors": [
-    "DS <dantevs@icloud.com> (https://twitter.com/dsbrux)"
+    "D/S"
   ],
   "license": "MIT",
   "version": "1.0.0",
@@ -19,7 +19,7 @@
     "cli.js"
   ],
   "bin": {
-    "availability": "./lib/cli.js"
+    "wastedtime": "./lib/cli.js"
   },
   "engines": {
     "node": ">= 8.10.0"

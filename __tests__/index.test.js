@@ -1,6 +1,5 @@
 // @format
 
-// [ASK]: How to use `import` instead? `@babel/register` ?
 const calculateAvailability = require('../lib/calculate-availability').calculateAvailability
 
 test('it prints the equals0 message', () => {
