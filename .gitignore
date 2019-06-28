@@ -9,3 +9,7 @@ node_modules/
 
 # ide
 .vscode/*
+
+# logs
+yarn-error.log
+*.log
