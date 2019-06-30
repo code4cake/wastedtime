@@ -11,5 +11,6 @@ node_modules/
 .vscode/*
 
 # logs
+npm-debug.log
 yarn-error.log
 *.log
