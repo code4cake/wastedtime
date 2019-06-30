@@ -7,7 +7,7 @@
   },
   "main": "./lib/cli.js",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A package that lets you calculate your average time spent doing other things",
   "keywords": [
     "cli",
@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/dantesolis/wastedtime.git"
   },
-  "bugs":{
+  "bugs": {
     "url": "git+https://github.com/dantesolis/wastedtime/issues"
   },
   "directories": {
