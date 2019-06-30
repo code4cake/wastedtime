@@ -31,7 +31,7 @@
     "url": "git+https://github.com/dantesolis/wastedtime.git"
   },
   "bugs": {
-      "url": "git+https://github.com/dantesolis/wastedtime/issues"
+    "url": "git+https://github.com/dantesolis/wastedtime/issues"
   },
   "scripts": {
     "start": "node -e ./lib/cli.js",
