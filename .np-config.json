@@ -1,4 +1,4 @@
 {
-  "yarn": false,
+  "yarn": true,
   "contents": "lib"
 }
