@@ -33,9 +33,6 @@
   "bugs": {
       "url": "git+https://github.com/dantesolis/wastedtime/issues"
   },
-  "directories": {
-    "lib": "./lib"
-  },
   "scripts": {
     "start": "node -e ./lib/cli.js",
     "clean": "rimraf ./lib/*",
