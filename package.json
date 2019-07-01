@@ -5,7 +5,7 @@
     "email": "",
     "url": ""
   },
-  "main": "./lib/cli.js",
+  "main": "lib/cli.js",
   "license": "MIT",
   "version": "1.0.7",
   "description": "A package that lets you calculate your average time spent doing other things",
@@ -16,15 +16,15 @@
     "babel"
   ],
   "files": [
-    "README.md",
-    "LICENSE",
-    "cli.js"
+    "lib"
   ],
   "bin": {
     "wastedtime": "./lib/cli.js"
   },
   "engines": {
-    "node": ">= 8.10.0"
+    "node": ">= 8.10.0",
+    "npm": ">= 6.8.0",
+    "yarn": ">= 1.7.0"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,9 @@
   },
   "bugs": {
     "url": "git+https://github.com/dantesolis/wastedtime/issues"
+  },
+  "directories": {
+    "lib": "./lib"
   },
   "scripts": {
     "start": "node -e ./lib/cli.js",
